@@ -1,0 +1,25 @@
+<script>
+var [a,b,c] = prompt("tri").split(" ").map(parseFloat)
+
+if (a>=b+c || b>=a+c || c>=b+a){
+    console.log("NAO FORMA TRIANGULO")
+}
+else{
+    if((a**2 == b**2 + c**2) || (b**2 == a**2 + c**2) || (c**2 == a**2 + b**2)){
+        console.log("TRIANGULO RETANGULO")
+    }
+    else if((a**2 > b**2 + c**2) || (b**2 > a**2 + c**2) || (c**2 > a**2 + b**2)){
+        console.log("TRIANGULO OBTUSANGULO")
+    }
+    else if((a**2 < b**2 + c**2) || (b**2 < a**2 + c**2) || (c**2 < a**2 + b**2)){
+        console.log("TRIANGULO ACUTANGULO")
+    }
+}
+
+if(a==b && a==c && b==c){
+    console.log("TRIANGULO EQUILATERO")
+}
+else if((a==b && c!=a & c!=b) || (a==c && b!=a && b!=c) || (b==c && a!=b && a!=c)){
+    console.log("TRIANGULO ISOSCELES")
+}
+</script>

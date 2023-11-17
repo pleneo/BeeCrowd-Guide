@@ -1,0 +1,17 @@
+<script>
+n=1
+while(n!=0){
+    n=parseInt(lines.shift(""))
+    cont_a=0
+    cont_b=0
+    for(i=1;i<=n;i++){
+        [a,b]=lines.shift().split(' ').map(Number)
+        
+    if(a>b){cont_a++}
+    if(b>a){cont_b++}
+
+    }
+
+    console.log(cont_a + ' '+ cont_b)
+}
+</script>

@@ -1,0 +1,17 @@
+<script>
+x=parseInt(prompt())
+y=parseInt(prompt())
+aux=0
+if(x>y){
+    aux=x
+    x=y
+    y=aux
+}
+soma=0
+for(i=x+1;i<y;i++){
+    if(i%2!=0){
+        soma+=i
+    }
+}
+console.log(soma)
+</script>

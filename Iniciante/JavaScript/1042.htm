@@ -1,0 +1,22 @@
+<script>
+// var prompt = function(t){return lines.shift()}
+
+var [a,b,c] = prompt("").split(" ").map(Number)
+
+var d=a
+var e=b
+var f=c
+for(i=0 ; (a>b || b>c);){
+    if(a>b){
+        i=a
+        a=b
+        b=i
+    }
+    if(b>c){
+        i=b
+        b=c
+        c=i
+    }
+}
+console.log(a+"\n"+b+"\n"+c+"\n"+""+"\n"+d+"\n"+e+"\n"+f)
+</script>

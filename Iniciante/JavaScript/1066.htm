@@ -1,0 +1,26 @@
+<script>
+    contPar=0
+    contPos=0
+    contImpar=0
+    contNeg=0   
+    for(i=1;i<=5;i++){
+        n=parseFloat(prompt())
+        if(n%2==0){
+            contPar++
+        }
+        else{
+            contImpar++
+        }
+        if(n>0){
+            contPos++
+        }
+        else if(n<0){
+            contNeg++
+        }
+    }
+    console.log(contPar + ' valor(es) par(es)')
+    console.log(contImpar + ' valor(es) impar(es)')
+    console.log(contPos + ' valor(es) positivo(s)')
+    console.log(contNeg + ' valor(es) negativo(s)')
+    
+</script>

@@ -1,0 +1,30 @@
+<script>
+n=parseInt(prompt(""))
+var [a,b]
+somaT=0
+somaC=0
+somaR=0
+somaS=0
+
+for(i=1;i<=n;i++){
+    [a,b]=prompt().split(" ")
+    a = parseInt(a)
+    somaT+=a
+    if(b=='C'){
+        somaC+=a
+    }
+    else if(b=='R'){
+        somaR+=a
+    }
+    else if(b=='S'){
+        somaS+=a
+    }
+}
+console.log('Total: '+somaT+" cobaias")
+console.log('Total de coelhos: '+somaC)
+console.log('Total de ratos: '+somaR)
+console.log('Total de sapos: '+somaS)
+console.log('Percentual de coelhos: '+ ((somaC/somaT)*100).toFixed(2)+ '%')
+console.log('Percentual de ratos: '+ ((somaR/somaT)*100).toFixed(2)+ '%')
+console.log('Percentual de sapos: '+ ((somaS/somaT)*100).toFixed(2) + '%')
+</script>

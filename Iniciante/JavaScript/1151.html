@@ -1,0 +1,18 @@
+<script>
+n=parseInt(prompt())
+
+t0=0
+t1=1
+fib=t0
+
+for(i=1;i<n;i++){
+    x=t0+t1
+    t0=t1
+    t1=x
+    fib=fib+' '+ t0
+    
+}
+
+console.log(fib)
+
+</script>

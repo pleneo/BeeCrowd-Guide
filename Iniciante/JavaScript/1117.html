@@ -1,0 +1,15 @@
+<script>
+contNotas = 0
+var somaNotas = 0
+for(; contNotas < 2;){
+    nota = parseFloat(prompt(""))
+    if(nota>=0 && nota<=10){
+        somaNotas = somaNotas + nota
+        contNotas++
+    }
+    else{
+        console.log("nota invalida")
+    }
+}
+console.log("media = "+((somaNotas)/2).toFixed(2))
+</script>

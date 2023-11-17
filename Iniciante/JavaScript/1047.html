@@ -1,0 +1,23 @@
+<script>
+[hI, mI, hF, mF] = prompt().split(' ').map(Number)
+
+
+if(hI>hF){
+var totH = 24 + (hF-hI)}
+else{
+var totH = hF-hI
+}
+
+if(mI>mF){
+var totM = 60 + (mF-mI)}
+else{
+var totM = mF-mI
+}
+
+if(hI==hF && mI==mF){
+    console.log('O JOGO DUROU 24 HORA(S) E 0 MINUTO(S)')
+}
+else{
+console.log("O JOGO DUROU " + totH + " HORA(S) E " + totM + " MINUTO(S)");
+}
+</script>

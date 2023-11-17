@@ -1,0 +1,26 @@
+<script>
+qtd=0
+inter=0
+gremio=0
+empate=0
+for(newgrenal=0;newgrenal!=2;){
+    [int,gre]=prompt().split(" ").map(Number)
+    qtd++
+    
+    if(int>gre){inter++}
+    else if(gre>int){gremio++}
+    else{empate++}
+
+    console.log("Novo grenal (1-sim 2-nao)")
+    newgrenal=parseInt(prompt())
+}
+console.log(qtd + ' grenais')
+console.log('Inter:'+inter)
+console.log('Gremio:'+gremio)
+console.log('Empates:'+empate)
+if(inter>gremio){
+    console.log("Inter venceu mais")
+}
+else if(gremio>inter){console.log("Gremio venceu mais")}
+else{console.log('Nao houve vencedor')}
+</script>
