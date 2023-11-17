@@ -14,7 +14,7 @@
 - Haverão pastas destinadas a cada categoria de problemas do Beecrowd (Iniciante, AD-HOC, etc);
 - Cada pasta conterá a linguagem de programação usada para resolução da questão, por ela você poderá acessar todas as questões resolvidas.
 - Você pode pesquisar a questão clicando na categoria desejada e pesquisando a respectiva questão
-<img src= 'bancoDeImagens/gitHubSearch.png' >
+<img src= 'bancoDeImagens/gitHubSearch.jpg' >
 
 # Como pedir a resolução de uma questão:
 
