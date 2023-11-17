@@ -1,0 +1,1 @@
+Aqui os arquivos em JavaScript serão alocados
